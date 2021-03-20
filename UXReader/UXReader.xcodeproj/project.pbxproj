@@ -49,27 +49,6 @@
 		45BCF10D1E399AF500DE9A28 /* Toolbar-Zoom-Fit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BCF1041E399AF500DE9A28 /* Toolbar-Zoom-Fit.pdf */; };
 		45BCF10E1E399AF500DE9A28 /* Toolbar-Zoom-Inc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BCF1051E399AF500DE9A28 /* Toolbar-Zoom-Inc.pdf */; };
 		45BCFCD61DB2814200CDDE8D /* UXReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BCFCD41DB2814200CDDE8D /* UXReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45C954BD1E342193002D65D8 /* libbigint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954A91E342193002D65D8 /* libbigint.a */; };
-		45C954BE1E342193002D65D8 /* libfdrm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954AA1E342193002D65D8 /* libfdrm.a */; };
-		45C954BF1E342193002D65D8 /* libformfiller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954AB1E342193002D65D8 /* libformfiller.a */; };
-		45C954C01E342193002D65D8 /* libfpdfapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954AC1E342193002D65D8 /* libfpdfapi.a */; };
-		45C954C11E342193002D65D8 /* libfpdfdoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954AD1E342193002D65D8 /* libfpdfdoc.a */; };
-		45C954C21E342193002D65D8 /* libfpdftext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954AE1E342193002D65D8 /* libfpdftext.a */; };
-		45C954C31E342193002D65D8 /* libfx_agg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954AF1E342193002D65D8 /* libfx_agg.a */; };
-		45C954C41E342193002D65D8 /* libfx_freetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B01E342193002D65D8 /* libfx_freetype.a */; };
-		45C954C51E342193002D65D8 /* libfx_lcms2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B11E342193002D65D8 /* libfx_lcms2.a */; };
-		45C954C61E342193002D65D8 /* libfx_libopenjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B21E342193002D65D8 /* libfx_libopenjpeg.a */; };
-		45C954C71E342193002D65D8 /* libfx_lpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B31E342193002D65D8 /* libfx_lpng.a */; };
-		45C954C81E342193002D65D8 /* libfx_zlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B41E342193002D65D8 /* libfx_zlib.a */; };
-		45C954C91E342193002D65D8 /* libfxcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B51E342193002D65D8 /* libfxcodec.a */; };
-		45C954CA1E342193002D65D8 /* libfxcrt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B61E342193002D65D8 /* libfxcrt.a */; };
-		45C954CB1E342193002D65D8 /* libfxedit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B71E342193002D65D8 /* libfxedit.a */; };
-		45C954CC1E342193002D65D8 /* libfxge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B81E342193002D65D8 /* libfxge.a */; };
-		45C954CD1E342193002D65D8 /* libjavascript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954B91E342193002D65D8 /* libjavascript.a */; };
-		45C954CE1E342193002D65D8 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954BA1E342193002D65D8 /* libjpeg.a */; };
-		45C954CF1E342193002D65D8 /* libpdfium.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954BB1E342193002D65D8 /* libpdfium.a */; };
-		45C954D01E342193002D65D8 /* libpdfwindow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954BC1E342193002D65D8 /* libpdfwindow.a */; };
-		45C954D51E3422B0002D65D8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C954D41E3422B0002D65D8 /* libc++.tbd */; };
 		45CC32921E5FA0D100738146 /* UXReaderPaneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CC32901E5FA0D100738146 /* UXReaderPaneView.h */; };
 		45CC32931E5FA0D100738146 /* UXReaderPaneView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45CC32911E5FA0D100738146 /* UXReaderPaneView.mm */; };
 		45E75EA71E340017004C9704 /* fpdf_dataavail.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75E971E340017004C9704 /* fpdf_dataavail.h */; };
@@ -88,7 +67,23 @@
 		45E75EB41E340017004C9704 /* fpdf_text.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA41E340017004C9704 /* fpdf_text.h */; };
 		45E75EB51E340017004C9704 /* fpdf_transformpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA51E340017004C9704 /* fpdf_transformpage.h */; };
 		45E75EB61E340017004C9704 /* fpdfview.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA61E340017004C9704 /* fpdfview.h */; };
+		85157EBC2605D25700521BA6 /* libpdfium.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85157EB52605CE3700521BA6 /* libpdfium.dylib */; };
+		85157EBD2605D25700521BA6 /* libpdfium.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 85157EB52605CE3700521BA6 /* libpdfium.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85157EBE2605D25700521BA6 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				85157EBD2605D25700521BA6 /* libpdfium.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45143B611E3652B0007E96EC /* UXReaderDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXReaderDefines.h; sourceTree = "<group>"; };
@@ -138,26 +133,6 @@
 		45BCFCD51DB2814200CDDE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = UXReader/Info.plist; sourceTree = "<group>"; };
 		45C6DAD62205EAA90000EEA0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		45C6DAD82205EAB00000EEA0 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		45C954A91E342193002D65D8 /* libbigint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbigint.a; path = UXReader/PDFium/libbigint.a; sourceTree = "<group>"; };
-		45C954AA1E342193002D65D8 /* libfdrm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfdrm.a; path = UXReader/PDFium/libfdrm.a; sourceTree = "<group>"; };
-		45C954AB1E342193002D65D8 /* libformfiller.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libformfiller.a; path = UXReader/PDFium/libformfiller.a; sourceTree = "<group>"; };
-		45C954AC1E342193002D65D8 /* libfpdfapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfapi.a; path = UXReader/PDFium/libfpdfapi.a; sourceTree = "<group>"; };
-		45C954AD1E342193002D65D8 /* libfpdfdoc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdfdoc.a; path = UXReader/PDFium/libfpdfdoc.a; sourceTree = "<group>"; };
-		45C954AE1E342193002D65D8 /* libfpdftext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpdftext.a; path = UXReader/PDFium/libfpdftext.a; sourceTree = "<group>"; };
-		45C954AF1E342193002D65D8 /* libfx_agg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfx_agg.a; path = UXReader/PDFium/libfx_agg.a; sourceTree = "<group>"; };
-		45C954B01E342193002D65D8 /* libfx_freetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfx_freetype.a; path = UXReader/PDFium/libfx_freetype.a; sourceTree = "<group>"; };
-		45C954B11E342193002D65D8 /* libfx_lcms2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfx_lcms2.a; path = UXReader/PDFium/libfx_lcms2.a; sourceTree = "<group>"; };
-		45C954B21E342193002D65D8 /* libfx_libopenjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfx_libopenjpeg.a; path = UXReader/PDFium/libfx_libopenjpeg.a; sourceTree = "<group>"; };
-		45C954B31E342193002D65D8 /* libfx_lpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfx_lpng.a; path = UXReader/PDFium/libfx_lpng.a; sourceTree = "<group>"; };
-		45C954B41E342193002D65D8 /* libfx_zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfx_zlib.a; path = UXReader/PDFium/libfx_zlib.a; sourceTree = "<group>"; };
-		45C954B51E342193002D65D8 /* libfxcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfxcodec.a; path = UXReader/PDFium/libfxcodec.a; sourceTree = "<group>"; };
-		45C954B61E342193002D65D8 /* libfxcrt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfxcrt.a; path = UXReader/PDFium/libfxcrt.a; sourceTree = "<group>"; };
-		45C954B71E342193002D65D8 /* libfxedit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfxedit.a; path = UXReader/PDFium/libfxedit.a; sourceTree = "<group>"; };
-		45C954B81E342193002D65D8 /* libfxge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfxge.a; path = UXReader/PDFium/libfxge.a; sourceTree = "<group>"; };
-		45C954B91E342193002D65D8 /* libjavascript.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjavascript.a; path = UXReader/PDFium/libjavascript.a; sourceTree = "<group>"; };
-		45C954BA1E342193002D65D8 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = UXReader/PDFium/libjpeg.a; sourceTree = "<group>"; };
-		45C954BB1E342193002D65D8 /* libpdfium.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpdfium.a; path = UXReader/PDFium/libpdfium.a; sourceTree = "<group>"; };
-		45C954BC1E342193002D65D8 /* libpdfwindow.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpdfwindow.a; path = UXReader/PDFium/libpdfwindow.a; sourceTree = "<group>"; };
 		45C954D41E3422B0002D65D8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		45CC32901E5FA0D100738146 /* UXReaderPaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXReaderPaneView.h; sourceTree = "<group>"; };
 		45CC32911E5FA0D100738146 /* UXReaderPaneView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UXReaderPaneView.mm; sourceTree = "<group>"; };
@@ -177,6 +152,7 @@
 		45E75EA41E340017004C9704 /* fpdf_text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpdf_text.h; path = UXReader/PDFium/fpdf_text.h; sourceTree = "<group>"; };
 		45E75EA51E340017004C9704 /* fpdf_transformpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpdf_transformpage.h; path = UXReader/PDFium/fpdf_transformpage.h; sourceTree = "<group>"; };
 		45E75EA61E340017004C9704 /* fpdfview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpdfview.h; path = UXReader/PDFium/fpdfview.h; sourceTree = "<group>"; };
+		85157EB52605CE3700521BA6 /* libpdfium.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpdfium.dylib; path = UXReader/PDFium/libpdfium.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,29 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B07BD61E4F732500B5CE41 /* AppKit.framework in Frameworks */,
+				85157EBC2605D25700521BA6 /* libpdfium.dylib in Frameworks */,
 				45B07BD41E4F730300B5CE41 /* CoreGraphics.framework in Frameworks */,
 				45B07BD81E4F733C00B5CE41 /* QuartzCore.framework in Frameworks */,
-				45C954D51E3422B0002D65D8 /* libc++.tbd in Frameworks */,
-				45C954BD1E342193002D65D8 /* libbigint.a in Frameworks */,
-				45C954BE1E342193002D65D8 /* libfdrm.a in Frameworks */,
-				45C954BF1E342193002D65D8 /* libformfiller.a in Frameworks */,
-				45C954C01E342193002D65D8 /* libfpdfapi.a in Frameworks */,
-				45C954C11E342193002D65D8 /* libfpdfdoc.a in Frameworks */,
-				45C954C21E342193002D65D8 /* libfpdftext.a in Frameworks */,
-				45C954C31E342193002D65D8 /* libfx_agg.a in Frameworks */,
-				45C954C41E342193002D65D8 /* libfx_freetype.a in Frameworks */,
-				45C954C51E342193002D65D8 /* libfx_lcms2.a in Frameworks */,
-				45C954C61E342193002D65D8 /* libfx_libopenjpeg.a in Frameworks */,
-				45C954C71E342193002D65D8 /* libfx_lpng.a in Frameworks */,
-				45C954C81E342193002D65D8 /* libfx_zlib.a in Frameworks */,
-				45C954C91E342193002D65D8 /* libfxcodec.a in Frameworks */,
-				45C954CA1E342193002D65D8 /* libfxcrt.a in Frameworks */,
-				45C954CB1E342193002D65D8 /* libfxedit.a in Frameworks */,
-				45C954CC1E342193002D65D8 /* libfxge.a in Frameworks */,
-				45C954CD1E342193002D65D8 /* libjavascript.a in Frameworks */,
-				45C954CE1E342193002D65D8 /* libjpeg.a in Frameworks */,
-				45C954CF1E342193002D65D8 /* libpdfium.a in Frameworks */,
-				45C954D01E342193002D65D8 /* libpdfwindow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,26 +335,7 @@
 		45E75EB71E3400E8004C9704 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				45C954A91E342193002D65D8 /* libbigint.a */,
-				45C954AA1E342193002D65D8 /* libfdrm.a */,
-				45C954AB1E342193002D65D8 /* libformfiller.a */,
-				45C954AC1E342193002D65D8 /* libfpdfapi.a */,
-				45C954AD1E342193002D65D8 /* libfpdfdoc.a */,
-				45C954AE1E342193002D65D8 /* libfpdftext.a */,
-				45C954AF1E342193002D65D8 /* libfx_agg.a */,
-				45C954B01E342193002D65D8 /* libfx_freetype.a */,
-				45C954B11E342193002D65D8 /* libfx_lcms2.a */,
-				45C954B21E342193002D65D8 /* libfx_libopenjpeg.a */,
-				45C954B31E342193002D65D8 /* libfx_lpng.a */,
-				45C954B41E342193002D65D8 /* libfx_zlib.a */,
-				45C954B51E342193002D65D8 /* libfxcodec.a */,
-				45C954B61E342193002D65D8 /* libfxcrt.a */,
-				45C954B71E342193002D65D8 /* libfxedit.a */,
-				45C954B81E342193002D65D8 /* libfxge.a */,
-				45C954B91E342193002D65D8 /* libjavascript.a */,
-				45C954BA1E342193002D65D8 /* libjpeg.a */,
-				45C954BB1E342193002D65D8 /* libpdfium.a */,
-				45C954BC1E342193002D65D8 /* libpdfwindow.a */,
+				85157EB52605CE3700521BA6 /* libpdfium.dylib */,
 			);
 			name = lib;
 			sourceTree = "<group>";
@@ -453,10 +390,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45BCFCD91DB2814200CDDE8D /* Build configuration list for PBXNativeTarget "UXReader" */;
 			buildPhases = (
+				85157EC62605DA9D00521BA6 /* ShellScript */,
 				45BCFCCC1DB2814200CDDE8D /* Sources */,
 				45BCFCCD1DB2814200CDDE8D /* Frameworks */,
 				45BCFCCE1DB2814200CDDE8D /* Headers */,
 				45BCFCCF1DB2814200CDDE8D /* Resources */,
+				85157EBE2605D25700521BA6 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -488,6 +427,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 45BCFCC71DB2814200CDDE8D;
@@ -516,6 +456,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85157EC62605DA9D00521BA6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 修改 dylib 的默认路径\ninstall_name_tool -id @rpath/UXReader.framework/Versions/A/Frameworks/libpdfium.dylib ${SRCROOT}/UXReader/PDFium/libpdfium.dylib\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45BCFCCC1DB2814200CDDE8D /* Sources */ = {
@@ -671,7 +631,7 @@
 		45BCFCDA1DB2814200CDDE8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 93KDX755KN;
@@ -695,7 +655,7 @@
 		45BCFCDB1DB2814200CDDE8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 93KDX755KN;

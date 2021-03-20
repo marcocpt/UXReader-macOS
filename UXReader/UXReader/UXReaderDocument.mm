@@ -580,7 +580,7 @@ static int GetDataBlock(void *object, unsigned long offset, unsigned char *buffe
 	^{
 		if (UXReaderDocumentPage *documentPage = [self documentPage:page])
 		{
-			const FPDF_TEXTPAGE textPage = [documentPage textPage]; // Handle
+			const FPDF_TEXTPAGE textPage = (FPDF_TEXTPAGE)[documentPage textPage]; // Handle
 
 			const unichar *term = reinterpret_cast<const unichar *>([unicode bytes]);
 

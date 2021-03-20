@@ -11,8 +11,9 @@
 		456678D61D789AD900CF5515 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 456678D51D789AD900CF5515 /* AppDelegate.mm */; };
 		456678D91D789AD900CF5515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 456678D81D789AD900CF5515 /* main.m */; };
 		456678DE1D789AD900CF5515 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456678DC1D789AD900CF5515 /* MainMenu.xib */; };
-		45B07BD91E4F73A600B5CE41 /* UXReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453D17CE1DB286A40017ACEF /* UXReader.framework */; };
 		45B868641DB294BA00599707 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 45B868631DB294BA00599707 /* AppIcon.icns */; };
+		85157EBF2605D26200521BA6 /* UXReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453D17CE1DB286A40017ACEF /* UXReader.framework */; };
+		85157EC02605D26200521BA6 /* UXReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 453D17CE1DB286A40017ACEF /* UXReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		85157EC12605D26200521BA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				85157EC02605D26200521BA6 /* UXReader.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		453D17BC1DB2852D0017ACEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		453D17C51DB286590017ACEF /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Todo.txt; path = Reader/Todo.txt; sourceTree = "<group>"; };
@@ -50,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B07BD91E4F73A600B5CE41 /* UXReader.framework in Frameworks */,
+				85157EBF2605D26200521BA6 /* UXReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 				456678CD1D789AD900CF5515 /* Sources */,
 				456678CE1D789AD900CF5515 /* Frameworks */,
 				456678CF1D789AD900CF5515 /* Resources */,
+				85157EC12605D26200521BA6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +187,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -359,7 +376,7 @@
 		456678E31D789AD900CF5515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 93KDX755KN;
 				INFOPLIST_FILE = Reader/Info.plist;
@@ -372,7 +389,7 @@
 		456678E41D789AD900CF5515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 93KDX755KN;
 				INFOPLIST_FILE = Reader/Info.plist;
