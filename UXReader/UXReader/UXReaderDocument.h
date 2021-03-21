@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+// TODO: [1]
+#import "fpdfview.h"
 
 @class UXReaderDocument;
 @class UXReaderDocumentPage;
@@ -62,7 +64,7 @@ typedef NS_ENUM(NSUInteger, UXReaderSearchOptions)
 - (void)openWithPassword:(nullable NSString *)password completion:(nonnull void (^)(NSError *__nullable error))handler;
 - (BOOL)isOpen;
 
-- (nonnull void *)pdfDocument;
+- (nonnull FPDF_DOCUMENT)pdfDocument;
 
 - (NSUInteger)pageCount;
 

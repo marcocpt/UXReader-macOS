@@ -57,7 +57,7 @@
 	{
 		if ((documentx != nil) && (pagex < [documentx pageCount])) // Carry on
 		{
-			page = pagex; document = documentx; pdfDocument = (FPDF_DOCUMENT)[document pdfDocument];
+			page = pagex; document = documentx; pdfDocument = [document pdfDocument];
 
 			if ([self loadPage] == YES) [self metadata]; else self = nil;
 		}
@@ -118,7 +118,7 @@
 	return pdfPage;
 }
 
-- (nonnull void *)textPage
+- (nonnull FPDF_TEXTPAGE)textPage
 {
 	//NSLog(@"%s", __FUNCTION__);
 

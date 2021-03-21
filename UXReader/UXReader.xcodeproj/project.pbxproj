@@ -66,7 +66,7 @@
 		45E75EB31E340017004C9704 /* fpdf_sysfontinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA31E340017004C9704 /* fpdf_sysfontinfo.h */; };
 		45E75EB41E340017004C9704 /* fpdf_text.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA41E340017004C9704 /* fpdf_text.h */; };
 		45E75EB51E340017004C9704 /* fpdf_transformpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA51E340017004C9704 /* fpdf_transformpage.h */; };
-		45E75EB61E340017004C9704 /* fpdfview.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA61E340017004C9704 /* fpdfview.h */; };
+		45E75EB61E340017004C9704 /* fpdfview.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E75EA61E340017004C9704 /* fpdfview.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85157EBC2605D25700521BA6 /* libpdfium.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85157EB52605CE3700521BA6 /* libpdfium.dylib */; };
 		85157EBD2605D25700521BA6 /* libpdfium.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 85157EB52605CE3700521BA6 /* libpdfium.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -153,6 +153,7 @@
 		45E75EA51E340017004C9704 /* fpdf_transformpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpdf_transformpage.h; path = UXReader/PDFium/fpdf_transformpage.h; sourceTree = "<group>"; };
 		45E75EA61E340017004C9704 /* fpdfview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpdfview.h; path = UXReader/PDFium/fpdfview.h; sourceTree = "<group>"; };
 		85157EB52605CE3700521BA6 /* libpdfium.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpdfium.dylib; path = UXReader/PDFium/libpdfium.dylib; sourceTree = "<group>"; };
+		85157ECE2606E32E00521BA6 /* README_My.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_My.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +261,7 @@
 		45BCFCC71DB2814200CDDE8D = {
 			isa = PBXGroup;
 			children = (
+				85157ECE2606E32E00521BA6 /* README_My.md */,
 				45BCFCD31DB2814200CDDE8D /* UXReader */,
 				453334C51E5D1E6E006063B4 /* UXReaderWindow */,
 				45A1713D1DB2B9D60046073E /* UXReaderDocument */,
@@ -473,7 +475,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# 修改 dylib 的默认路径\ninstall_name_tool -id @rpath/UXReader.framework/Versions/A/Frameworks/libpdfium.dylib ${SRCROOT}/UXReader/PDFium/libpdfium.dylib\n";
+			shellScript = "# 修改 dylib 的默认路径, 初次导入 libpdfium.dylib 是执行\n# install_name_tool -id @rpath/UXReader.framework/Versions/A/Frameworks/libpdfium.dylib ${SRCROOT}/UXReader/PDFium/libpdfium.dylib\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

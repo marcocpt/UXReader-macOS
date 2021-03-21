@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+// TODO: [1] 不导入 fpdfview.h 文件和暴露 FPDF_TEXTPAGE, FPDF_DOCUMENT ?
+#import "fpdfview.h"
 
 @class UXReaderCanceller;
 @class UXReaderTextSelection;
@@ -16,7 +18,7 @@
 - (nullable instancetype)initWithDocument:(nonnull UXReaderDocument *)document page:(NSUInteger)page;
 
 - (nonnull void *)pdfPage;
-- (nonnull void *)textPage;
+- (nonnull FPDF_TEXTPAGE)textPage;
 
 - (NSUInteger)page;
 - (NSUInteger)rotation;
